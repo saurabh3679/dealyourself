@@ -26,6 +26,10 @@ h2, h1 {
   color: #e2dbdb;
 }
 
+h2:hover {
+  color: lightgoldenrodyellow;
+}
+
 hr {
   margin: 20px auto;
   color: #F05F44;
@@ -53,4 +57,9 @@ hr {
 
 .btn-xl {
   padding: 10px 20px;
+}
+
+.btn:hover {
+  animation: bounce;
+  animation-duration: 2s;
 }
